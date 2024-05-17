@@ -8,5 +8,9 @@ namespace c_sharp_apps_shlomo_tagaya.TransportationApp
 {
     internal class TransportationAppMain
     {
+        public static void MainEntry()
+        {
+            Console.WriteLine("TransportationApp");
+        }
     }
 }

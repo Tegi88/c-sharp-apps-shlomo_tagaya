@@ -8,5 +8,9 @@ namespace c_sharp_apps_shlomo_tagaya.DraftApp
 {
     internal class DraftAppMain
     {
+        public static void MainEntry()
+        {
+            Console.WriteLine("DraftApp");
+        }
     }
 }

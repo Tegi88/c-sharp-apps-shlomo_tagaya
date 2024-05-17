@@ -8,5 +8,10 @@ namespace c_sharp_apps_shlomo_tagaya.BankApp
 {
     internal class BankAppMain
     {
+        public static void MainEntry()
+        {
+            Console.WriteLine("BankApp");
+        }
+
     }
 }
