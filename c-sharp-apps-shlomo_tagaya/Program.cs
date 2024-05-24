@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_apps_shlomo_tagaya
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
