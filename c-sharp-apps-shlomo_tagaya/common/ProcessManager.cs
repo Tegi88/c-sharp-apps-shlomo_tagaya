@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_apps_shlomo_tagaya.common
 {
-    internal class ProcessManager
+    public class ProcessManager
     {
         public static void RunMainProcess()
         {

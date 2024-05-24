@@ -9,7 +9,7 @@ namespace c_sharp_apps_shlomo_tagaya
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             ProcessManager.RunMainProcess();
         }
