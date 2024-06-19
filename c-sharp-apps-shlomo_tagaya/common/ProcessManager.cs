@@ -2,6 +2,7 @@
 using c_sharp_apps_shlomo_tagaya.DraftApp;
 using c_sharp_apps_shlomo_tagaya.SportApp;
 using c_sharp_apps_shlomo_tagaya.TransportationApp;
+using c_sharp_apps_shlomo_tagaya.InventoryApp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace c_sharp_apps_shlomo_tagaya.common
             Console.WriteLine("2 - Sport App");
             Console.WriteLine("3 - Transportation App");
             Console.WriteLine("4 - Draft App");
+            Console.WriteLine("5 - Inventory App");
             Console.WriteLine("0 - Exit");
             int choos = int.Parse(Console.ReadLine());
             while (choos > 0 )
@@ -34,11 +36,15 @@ namespace c_sharp_apps_shlomo_tagaya.common
                         SportAppMain.MainEntry();
                         break;
                     case 3:
-                        DraftAppMain.MainEntry();
-                        break;
-                    case 4:
                         TransportationAppMain.MainEntry();
                         break;
+                    case 4:
+                        DraftAppMain.MainEntry();
+                        break;
+                    case 5:
+                        InventoryAppMain.MainEntry();
+                        break;
+
                     case 0:
                         Console.WriteLine("exit");
                         break;
